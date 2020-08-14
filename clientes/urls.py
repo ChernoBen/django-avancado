@@ -4,7 +4,9 @@ from .views import persons_new
 from .views import persons_update
 from .views import persons_delete
 
+# TODO: utilizando todo para criar flags de dividas tecnicas
 
+# FIXME: lembrete de correção de bug ducumentado
 urlpatterns = [
     path('list/', persons_list, name="person_list"),
     path('new/', persons_new, name="person_new"),
